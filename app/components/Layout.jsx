@@ -15,6 +15,7 @@ import {
 export function Layout({cart, children = null, footer, header, isLoggedIn}) {
   return (
     <>
+    <h1>first line in hydrogen</h1>
       <CartAside cart={cart} />
       <SearchAside />
       <MobileMenuAside menu={header?.menu} shop={header?.shop} />
